@@ -44,9 +44,13 @@ console.log(isuseless(process.env.CREDIT_CARD_NUMBER, false, true)); // runs kin
 ## Support
 Arkanic#3976 on discord
 github issues tab
-WHATEVER YOU DO, DO **NOT** UNDER ANY CIRCUMSTANCES PASS A FOURTH PAREMETER INTO THE `isuseless` FUNCTION WITH CODE IN IT. DO NOT
+<!-- WHATEVER YOU DO, DO **NOT** UNDER ANY CIRCUMSTANCES PASS A FOURTH PAREMETER INTO THE `isuseless` FUNCTION WITH CODE IN IT. DO NOT -->
+<!-- commented out above because this feature was removed because eslint no likey -->
 
 ## Updates
+
+#### v.1.4.3 (3/11/2026)
+added eslint for enterprise stability (contributed by [tj-commits](https://github.com/tj-commits))
 
 #### v1.4.2 (12/16/2025)
 changed nothing at all
