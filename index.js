@@ -2,7 +2,7 @@
 
 // Define yo undefined yo!
 
-// eslint-disable-next-line init-declarations, prefer-const
+// eslint-disable-next-line init-declarations, prefer-const, no-unassigned-vars
 let nothing
 
 const GetIntrinsic = require("get-intrinsic")
@@ -49,7 +49,7 @@ const mathdotsqrt = GetIntrinsic("%Math.sqrt%")
 // eslint-disable-next-line one-var, new-cap
 const mathdotrandom = GetIntrinsic("%Math.random%")
 
-// eslint-disable-next-line prefer-const
+// eslint-disable-next-line prefer-const, one-var
 let Logger = class {
   constructor(shouldLoggingEnabled) {
     this.is = shouldLoggingEnabled
