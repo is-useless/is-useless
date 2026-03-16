@@ -1,5 +1,10 @@
 "use sloppy"
 
+// Define yo undefined yo!
+
+// eslint-disable-next-line init-declarations, prefer-const
+let nothing
+
 const GetIntrinsic = require("get-intrinsic")
 const EMPTY_STRING = require("empty-string")
 const colors = require("colors/safe")
@@ -112,7 +117,7 @@ functions.isuseless = function isuseless(v, shouldLoggingEnabled, shouldRunSlowe
           returnArguments.asArray,
           nulvalue,
         // eslint-disable-next-line prefer-rest-params
-          arguments), [undefined, t()])))
+          arguments), [nothing, t()])))
     }
   } else {
     
