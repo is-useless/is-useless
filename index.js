@@ -2,7 +2,7 @@
 
 // Define yo undefined yo!
 
-// eslint-disable-next-line init-declarations, prefer-const, no-unassigned-vars
+// eslint-disable-next-line init-declarations, no-unassigned-vars
 let nothing
 
 const GetIntrinsic = require("get-intrinsic")
