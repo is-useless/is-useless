@@ -58,7 +58,12 @@ let Logger = class {
 }
 
 // eslint-disable-next-line max-statements, id-length, max-params, max-lines-per-function
-functions.isuseless = function isuseless(v, shouldLoggingEnabled, shouldRunSlower, deadStore) {
+functions.isuseless = function isuseless(v, shouldLoggingEnabled, shouldRunSlower, h, deadStore) {
+  // The unbroken backwards compatibilty
+  if(h) {
+    // This crashes the porgam
+    require("is-not-integer")() 
+  }
   const logger = contruct({ args: [shouldLoggingEnabled], target: Logger })
 
   logger.log(colors.cyan("[isuseless] Isuselessing"))
@@ -107,7 +112,7 @@ functions.isuseless = function isuseless(v, shouldLoggingEnabled, shouldRunSlowe
           returnArguments.asArray,
           nulvalue,
         // eslint-disable-next-line prefer-rest-params
-          arguments), [t()])))
+          arguments), [undefined, t()])))
     }
   } else {
     
