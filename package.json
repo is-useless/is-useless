@@ -1,11 +1,10 @@
 {
   "name": "is-useless",
   "version": "1.4.3",
-  "description": "Package to reflect on the state of npm",
+  "description": "a dead bloated horse that keeps getting beaten for no conceivable reason",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint ."
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -14,9 +13,7 @@
   "keywords": [
     "is-useless",
     "useless",
-    "meme",
-    "not-useless-at-all-totally",
-    "not-20x"
+    "meme"
   ],
   "author": "Arkanic",
   "license": "ISC",
@@ -25,7 +22,6 @@
   },
   "homepage": "https://github.com/Arkanic/is-useless#readme",
   "dependencies": {
-    "@10xly/strict-equals": "^1.0.1",
     "@frosted/array-concat": "^1.0.0",
     "@not-js/not": "^1.1.0",
     "@positive-numbers/one": "^3.0.0",
@@ -49,9 +45,5 @@
     "returndotjs": "^1.0.0",
     "uncurry-x": "^1.0.1",
     "validate.io-less-than": "^1.0.2"
-  },
-  "devDependencies": {
-    "@10xly/eslint-config": "latest",
-    "eslint": "^9.39.4"
   }
 }
