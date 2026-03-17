@@ -48,6 +48,9 @@ WHATEVER YOU DO, DO **NOT** UNDER ANY CIRCUMSTANCES PASS A FOURTH PAREMETER INTO
 
 ## Updates
 
+#### v.1.4.3 (3/11/2026)
+added eslint for enterprise stability (contributed by [tj-commits](https://github.com/tj-commits))
+
 #### v1.4.2 (12/16/2025)
 changed nothing at all
 #### v1.4.1 (6/23/2025)
