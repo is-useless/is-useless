@@ -50,6 +50,8 @@ WHATEVER YOU DO, DO **NOT** UNDER ANY CIRCUMSTANCES PASS A FOURTH PAREMETER INTO
 
 #### v.1.4.3 (3/11/2026)
 added eslint for enterprise stability (contributed by [tj-commits](https://github.com/tj-commits))
+removed eslint for enterprise stability
+added better mobile device compatibliity and fixed typo (contributed by [markozajc](https://github.com/markozajc))
 
 #### v1.4.2 (12/16/2025)
 changed nothing at all
